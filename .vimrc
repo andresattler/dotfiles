@@ -1,28 +1,38 @@
 call plug#begin()
-Plug 'w0rp/ale'
-Plug 'leafgarland/typescript-vim'
-Plug 'Quramy/tsuquyomi'
-Plug 'vim-airline/vim-airline'
-Plug 'flazz/vim-colorschemes'
+
+" Languages
 Plug 'pangloss/vim-javascript'
-Plug 'mxw/vim-jsx'
-Plug '/usr/local/opt/fzf'
-Plug 'digitaltoad/vim-pug'
+Plug 'leafgarland/typescript-vim'
 Plug 'wavded/vim-stylus'
+Plug 'mxw/vim-jsx'
+Plug 'digitaltoad/vim-pug'
+Plug 'cakebaker/scss-syntax.vim'
+Plug 'elzr/vim-json'
+Plug 'kchmck/vim-coffee-script'
+
+" Styling
+Plug 'flazz/vim-colorschemes'
 Plug 'ryanoasis/vim-devicons'
+
+" File Navigation
 Plug 'scrooloose/nerdtree'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'Valloric/MatchTagAlways'
+Plug 'ludovicchabant/vim-gutentags'
+Plug 'jremmen/vim-ripgrep'
+Plug 'pbrisbin/vim-mkdir'
+
+" Git
 Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'cakebaker/scss-syntax.vim'
-Plug 'kchmck/vim-coffee-script'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
-Plug 'ludovicchabant/vim-gutentags'
-Plug 'elzr/vim-json'
-Plug 'pbrisbin/vim-mkdir'
-Plug 'jremmen/vim-ripgrep'
+
+" General
+Plug 'w0rp/ale'
+Plug 'Quramy/tsuquyomi'
+Plug 'vim-airline/vim-airline'
+Plug 'Valloric/MatchTagAlways'
 Plug 'tpope/vim-surround'
+
 call plug#end()
 
 set encoding=UTF-8
