@@ -4,6 +4,7 @@
 # Vim plugins, ftplugins, syntax etc etc
 !.vim/
 !.vim/**
+.vim/view/
 # Do ignore netrw history
 .vim/.netrwhist
 # Do ignore vim-plug stuff, sigh
@@ -16,6 +17,11 @@
 .vim/*/*/.*.swp
 .vim/*/*/*/.*.swp
 #config
-!.config/
-!.config/i3/**
-!.config/polybar/**
+!config/
+!config/sway/
+!config/sway/**
+!config/polybar/**
+!config/waybar/
+!config/waybar/**
+!config/rofi/
+!config/rofi/**
