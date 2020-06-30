@@ -11,6 +11,8 @@
 .vim/plugged
 # Vim settings
 !.vimrc
+# Zsh settings
+!zshrc
 # Ignore swapfiles
 .vim/.*.swp
 .vim/*/.*.swp
