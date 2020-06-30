@@ -1,0 +1,6 @@
+{
+  "coc.preferences.hoverTarget": "echo",
+  "vetur.experimental.templateInterpolationService": true,
+  "vetur.validation.template": false,
+  "suggest.autoTrigger": "none"
+}

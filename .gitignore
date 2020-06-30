@@ -1,1 +1,27 @@
-/home/andre/Dotfiles/.gitignore
+*
+!.gitignore
+!.Xresources
+# Vim plugins, ftplugins, syntax etc etc
+!.vim/
+!.vim/**
+.vim/view/
+# Do ignore netrw history
+.vim/.netrwhist
+# Do ignore vim-plug stuff, sigh
+.vim/plugged
+# Vim settings
+!.vimrc
+# Ignore swapfiles
+.vim/.*.swp
+.vim/*/.*.swp
+.vim/*/*/.*.swp
+.vim/*/*/*/.*.swp
+#config
+!config/
+!config/sway/
+!config/sway/**
+!config/polybar/**
+!config/waybar/
+!config/waybar/**
+!config/rofi/
+!config/rofi/**
