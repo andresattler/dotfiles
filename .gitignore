@@ -1,6 +1,7 @@
 *
 !.gitignore
 !.Xresources
+!nightTab.json
 # Vim plugins, ftplugins, syntax etc etc
 !.vim/
 !.vim/**
@@ -27,3 +28,5 @@
 !config/waybar/**
 !config/rofi/
 !config/rofi/**
+!config/alacritty/
+!config/alacritty/**
